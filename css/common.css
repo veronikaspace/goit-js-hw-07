@@ -96,3 +96,19 @@ li {
   object-fit: cover;
   border-radius: 0;
 }
+
+.text-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+}
+
+.text-input::placeholder {
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
