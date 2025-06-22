@@ -126,6 +126,12 @@ li {
   margin-bottom: 8px;
 }
 
+.input-area:hover,
+.input-area:focus {
+  border: 1px solid #000;
+  outline: none;
+}
+
 .submit-btn {
   font-family: 'Montserrat', sans-serif;
   background-color: #4e75ff;
@@ -144,5 +150,24 @@ li {
 
 .submit-btn:hover,
 .submit-btn:focus {
+  background-color: #6c8cff;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  border: none;
+  width: 148px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.change-color:hover,
+.change-color:focus {
   background-color: #6c8cff;
 }
